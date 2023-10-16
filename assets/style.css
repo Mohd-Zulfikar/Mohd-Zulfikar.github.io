@@ -125,7 +125,7 @@ section{
 }
 
 .header .logo span {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #012970;
@@ -168,7 +168,7 @@ section{
     transition: 0.3s;
 }
 
-.navbar a,
+.navbar a i,
 .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
@@ -228,7 +228,7 @@ section{
     font-size: 12px;
 }
 
-.navbar .dropdown ul 
+.navbar .dropdown ul a:hover
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
     color: #4154f1;
@@ -236,7 +236,7 @@ section{
 
 .navbar .dropdown:hover>ul {
     opacity: 1;
-    top: 0;
+    top: 100%;
     visibility: visible;
 }
 
@@ -570,7 +570,7 @@ section{
     margin: 0; 
 }
 
-.features .feature-box {
+.features .feature-box i {
     line-height: 0;
     background: #ecf3ff;
     margin-right: 10px; 
@@ -666,7 +666,7 @@ section{
     color: #012970;
 }
 
-.features .feature-icons .content .icon-box {
+.features .feature-icons .content .icon-box i {
     font-size: 44px; 
     line-height: 44px;
     color: #0245bc;
